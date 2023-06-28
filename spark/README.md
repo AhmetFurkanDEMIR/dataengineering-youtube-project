@@ -1,3 +1,10 @@
+![Apache_Spark_logo](Apache_Spark_logo.png)
+
+[**Apache Spark**](https://spark.apache.org/), büyük veri kümeleri üzerinde paralel olarak işlem yapılmasını sağlayan, Scala dili ile geliştirilmiş açık kaynak kodlu kütüphanedir.
+
+Disk bazlı çalışma yapısına sahip olan “MapReduce”un oluşturduğu performans maliyetlerinin çözümüyle ortaya çıkan Spark, bellek içi veri işleme özelliğiyle büyük veri uygulamalarında Apache Hadoop’tan daha hızlı çalışabilmektedir.
+
+```python3
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.getOrCreate()
@@ -45,3 +52,4 @@ parDF1.show(truncate = False)
 +---------------------+---------------------------------------------------------+---+------------------------+---------------------+------------------+
 only showing top 20 rows
 """
+```
